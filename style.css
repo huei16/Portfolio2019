@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700,800');
 
-:root {  --mainColor: #ffb757;}
+:root {  --mainColor: #ff9800;}
 html {scroll-behavior: smooth;}
 body{font-family: 'Merriweather Sans', sans-serif;}
 .blank{height:10px;}
