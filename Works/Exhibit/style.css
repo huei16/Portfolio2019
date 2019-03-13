@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Guntur:400,500,600,700|Merriweather+Sans:400,700,800|PT+Sans:400,700');
+.blank{height:5vh; width:100%;}
+.p-blank{height:1em;width:100%;}
+html {scroll-behavior: smooth;}
+.cover{margin-left:-45%; position: relative; left:50%; padding-top: -30vh;}
+
+/* orange
+#FFA500
+rgb(255,165,0) */
+
+h1{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2.4em;text-align: center;}
+h2{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2em;text-align: center;}
+h3{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.3em; color: orange;text-align: center;}
+p{font-family: 'PT Sans', sans-serif; line-height: 1.5em;}
+h5{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.5em;text-align: center;}
+h4{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2.5em; color: orange;}
+
+.p-about, .p-NoSpoiler, .p-Goal, .p-Reflect{width:50%; margin-left: -25%; position: relative; left:50%; overflow: hidden;}
+.h-Visit{background-color: #fcc854; padding-top:30px; padding-bottom: 30px;}
+.ph-cover{margin-left: -35%; position: relative; left:50%;}
+.p-ExhibitionFlow{text-align: right; position: relative; top:-30px; left:-70px;}
+.ph-InteractiveArrow{position: relative; top:-70px; left:300px;}
+.p-Interactive{position: relative; top:-90px; left:380px;}
+.p-thinking1, .p-thinking2, .p-thinking3{width:20%; display: inline-block; overflow: hidden;}
+.p-thinking1{position: relative;left:9vw;}
+.p-thinking2{position: relative;left:21vw; bottom:1em;}
+.p-thinking3{position: relative;left:32vw; bottom:1em;}
+.ph-NoSpoiler{position: relative;top:-3vh;}
+
+.Content01{position: relative; height:79vh; overflow:hidden;}
+.p-Content01{position: absolute; left:6vw;bottom:8vh; width:30vw;}
+.h3-Content01{position: absolute; left:6vw; bottom: 24vh;}
+.h4-Content01{position: absolute; left:6vw; bottom: 29vh;}
+
+.Content02{position: relative; height:83vh; overflow:hidden;}
+.p-Content02{position: absolute; left:65vw;bottom:8vh; width:30vw;}
+.h3-Content02{position: absolute; left:65vw; bottom: 28vh;}
+.h4-Content02{position: absolute; left:65vw; bottom: 33vh;}
+
+.Content03{position: relative; height:79vh; overflow:hidden;}
+.p-Content03{position: absolute; left:6vw;bottom:8vh; width:30vw;}
+.h3-Content03{position: absolute; left:6vw; bottom: 24vh;}
+.h4-Content03{position: absolute; left:6vw; bottom: 29vh;}
+
+.Content04{position: relative; height:82vh; overflow:hidden;}
+.p-Content04{position: absolute; left:63vw;bottom:8vh; width:30vw;}
+.h3-Content04{position: absolute; left:63vw; bottom: 28vh;}
+.h4-Content04{position: absolute; left:63vw; bottom: 33vh;}
+
+.Content05{position: relative; height:50vh; overflow:hidden;}
+.p-Content05{position: absolute; left:6vw;bottom:8vh; width:28vw;}
+.h3-Content05{position: absolute; left:6vw; bottom: 28vh;}
+.h4-Content05{position: absolute; left:6vw; bottom: 33vh;}
+
+.Content06{position: relative; height:70vh; overflow:hidden;}
+.p-Content06{position: absolute; left:53vw;bottom:8vh; width:35vw;}
+.h3-Content06{position: absolute; left:53vw; bottom: 24vh;}
+.h4-Content06{position: absolute; left:53vw; bottom: 29vh;}
+
+.ph-Team01, .ph-Team02, .ph-Team03, .ph-Team04 {width:8em; height:8em; display: inline-block; background-color: pink; border-radius: 50%; overflow: hidden;}
+.ph-Team01 {position: absolute; margin-left: -4em; left:25%;}
+.ph-Team02 {position: absolute; margin-left: -4em; left:42%;}
+.ph-Team03 {position: absolute; margin-right: -4em; right:42%;}
+.ph-Team04 {position: absolute; margin-right: -4em; right:25%;}
+.p-Team{display: inline-block;
+  font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1em; color: black;text-align: center;
+  width:10em;}
+.p-Team01 {position: absolute; margin-left: -5em; left:25.2%;}
+.p-Team02 {position: absolute; margin-left: -5em; left:42.2%;}
+.p-Team03 {position: absolute; margin-right: -5em; right:41.7%;}
+.p-Team04 {position: absolute; margin-right: -5em; right:24.5%;}
+
+.ph-Directory{transition: .5s;}
+.ph-Directory:hover{transform: scale(1.1); transition: .3s;}
+.ph-Directory01{position: absolute; margin-left: -6vw; left:30%;}
+.ph-Directory02{position: absolute; margin-left: -6vw; left:50%;}
+.ph-Directory03{position: absolute; margin-left: -6vw; left:70%;}
