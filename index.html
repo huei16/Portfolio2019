@@ -7,10 +7,15 @@
     <link href="reset.css" rel="stylesheet" media="screen" type="text/css">
     <link rel="stylesheet" media='screen and (min-width: 701px)' href="style.css">
     <link rel="stylesheet" media='screen and (max-width: 700px)' href="style_mobile.css">
-
+    <script type="text/javascript" src="jquery.js"></script>
     <script src="paper-full.js"></script>
   </head>
   <body>
+
+    <div id="loading">
+      <img id="loading-image" src="images/ajax-loader.gif" alt="Loading..." />
+    </div>
+
     <!--
             INTERACTIVE WAVE
      -->
@@ -205,6 +210,13 @@ This website is coded by Sophia and hosted by Github.</p>
 
 <p class="blank"></p>
 <p class="p-blank"></p>
+
+
+<script language="javascript" type="text/javascript">
+     $(window).load(function() {
+     $('#loading').hide();
+  });
+</script>
 
   </body>
 </html>
