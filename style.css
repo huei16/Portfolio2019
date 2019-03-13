@@ -57,18 +57,29 @@ margin-left: 100px;left:50%}
 .pj-even{position: absolute; right: 9em; text-decoration: none;}
 .pj-odd:visited, .pj-even:visited{color:black;}
 
-.pj01{width:35em; height:15em; background-color: pink; position: absolute; top: 7em;}
-.pj02{width:35em; height:15em; background-color: pink; position: absolute; top: 7em;}
-.pj03{width:35em; height:15em; background-color: pink; position: absolute; top: 24em;}
-.pj04{width:35em; height:15em; background-color: pink; position: absolute; top: 24em;}
-.pj05{width:35em; height:15em; background-color: pink; position: absolute; top: 41em;}
+.pj01{width:35em; height:15em; background-color: pink; position: absolute; top: 7em; overflow: hidden;}
+.pj02{width:35em; height:15em; background-color: white; position: absolute; top: 7em; overflow: hidden;}
+.pj03{width:35em; height:15em; background-color: pink; position: absolute; top: 24em; overflow: hidden;}
+.pj04{width:35em; height:15em; background-color: pink; position: absolute; top: 24em; overflow: hidden;}
+.pj05{width:35em; height:15em; background-color: pink; position: absolute; top: 41em; overflow: hidden;}
 
 
 .p-pj{font-size: 1.3em; font-weight: 700; background-color: black; color:white; display: inline; padding-left: 2ch; padding-right: 1ch; padding-top: 0.3em; padding-bottom: 0.3em;
   position: absolute; top:9em;}
 
-  .p-bottom{text-align: center; font-size: 1em; line-height: 1.2em;}
-  .p-bottom2{text-align: center; font-size: 0.8em;}
+.ph-pj01{height:15em; position: relative; left:-2.2em;}
+.ph-pj02{width:35em; position: relative; top:-2em;}
+.ph-pj03{width:35em; position: relative; top:-3.5em;}
+.ph-pj04{width:35em; position: relative; top:-1.5em;}
+
+.ph-pj{transition: .5s;}
+.ph-pj:hover{ transform: scale(1.1); transition: .5s}
+
+
+
+
+.p-bottom{text-align: center; font-size: 1em; line-height: 1.2em;}
+.p-bottom2{text-align: center; font-size: 0.8em;}
 
 .email{padding-left: 1ch; padding-right: 1ch; text-decoration: none; color: black;}
 .email:hover{background-color: #ffb757; transition: .3s;}
