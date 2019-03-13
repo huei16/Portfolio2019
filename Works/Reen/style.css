@@ -4,6 +4,10 @@
 .ph-blank{height:110vh;width:100%;}
 html {scroll-behavior: smooth;}
 .cover{margin-left:-45%; position: relative; left:50%; padding-top: -30vh;}
+.logo{width:50px; position: fixed; top:20px; left:40px;z-index: 10;}
+.logo-orange{width:50px; position: fixed; top:20px; left:40px; z-index: 20; opacity: 0; transition: .3s;}
+.logo-orange:hover{width:50px; position: fixed; top:20px; left:40px; z-index: 20; opacity: 1; transition: .1s;}
+
 
 /* pink
 #e14966
