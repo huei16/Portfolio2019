@@ -2,6 +2,11 @@
 .blank{height:5vh; width:100%;}
 .p-blank{height:1em;width:100%;}
 html {scroll-behavior: smooth;}
+.logo{width:50px; position: fixed; top:20px; left:40px;z-index: 10;}
+.logo-orange{width:50px; position: fixed; top:20px; left:40px; z-index: 20; opacity: 0; transition: .3s;}
+.logo-orange:hover{width:50px; position: fixed; top:20px; left:40px; z-index: 20; opacity: 1; transition: .1s;}
+
+
 
 /* orange
 #FFA500
