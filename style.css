@@ -4,6 +4,9 @@
 html {scroll-behavior: smooth;}
 body{font-family: 'Merriweather Sans', sans-serif;}
 .blank{height:10px;}
+.blank{height:5vh; width:100%;}
+.p-blank{height:1em;width:100%;}
+
 
 
 #sec1{height:100vh;}
@@ -37,10 +40,40 @@ margin-left: 100px;left:50%}
 
 
 
-#sec2{height:95vh; position: relative;}
+#sec2{height:130vh; position: relative;
+  /* background-color: yellow; */
+}
 .header{}
 .logo{position: absolute; top:20px; left:40px;}
 #nav{position: absolute; top:30px; right:50px; }
 .nav{text-decoration: none; color: black; font-size: 20px; font-weight: 700; padding-left: 6px; padding-right: 6px; padding-bottom: 1px;}
 .nav:hover{background-color: #ffb757; transition: .3s;}
 .nav:visited{text-decoration: none;}
+
+
+
+/* .pj01{width:35vw; height:30vh; background-color: pink; position: absolute; top: 15vh;} */
+.pj-odd{position: absolute; left: 9em; text-decoration: none;}
+.pj-even{position: absolute; right: 9em; text-decoration: none;}
+.pj-odd:visited, .pj-even:visited{color:black;}
+
+.pj01{width:35em; height:15em; background-color: pink; position: absolute; top: 7em;}
+.pj02{width:35em; height:15em; background-color: pink; position: absolute; top: 7em;}
+.pj03{width:35em; height:15em; background-color: pink; position: absolute; top: 24em;}
+.pj04{width:35em; height:15em; background-color: pink; position: absolute; top: 24em;}
+.pj05{width:35em; height:15em; background-color: pink; position: absolute; top: 41em;}
+
+
+.p-pj{font-size: 1.3em; font-weight: 700; background-color: black; color:white; display: inline; padding-left: 2ch; padding-right: 1ch; padding-top: 0.3em; padding-bottom: 0.3em;
+  position: absolute; top:9em;}
+
+  .p-bottom{text-align: center; font-size: 1em; line-height: 1.2em;}
+  .p-bottom2{text-align: center; font-size: 0.8em;}
+
+.email{padding-left: 1ch; padding-right: 1ch; text-decoration: none; color: black;}
+.email:hover{background-color: #ffb757; transition: .3s;}
+.email:visited{color: black;}
+
+.phone{padding-left: 1ch; padding-right: 1ch; text-decoration: none; color: black;}
+.phone:hover{background-color: #ffb757; transition: .3s;}
+.phone:visited{color: black;}
