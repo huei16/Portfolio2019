@@ -8,6 +8,11 @@ body{font-family: 'Merriweather Sans', sans-serif;}
 .p-blank{height:1em;width:100%;}
 
 
+#load{width:100%;height:100%;position:fixed;z-index:9999;background:rgba(255,255,255,1)}
+.ph-load{position: absolute; width:40%; margin-left: -20%; left:48%; top:20%;}
+
+
+
 #sec1{height:100vh;}
 #canvas-1{width:100%; height:100vh;}
 .intro{
