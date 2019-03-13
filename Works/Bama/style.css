@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Guntur:400,500,600,700|Merriweather+Sans:400,700,800|PT+Sans:400,700');
+.blank{height:5vh; width:100%;}
+.p-blank{height:1em;width:100%;}
+html {scroll-behavior: smooth;}
+
+/* orange
+#FFA500
+rgb(255,165,0) */
+
+h1{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2.5em;text-align: center;}
+h2{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2em; color: #ff7942; text-align: center;}
+h3{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.5em; text-align: center;}
+p{font-family: 'PT Sans', sans-serif; line-height: 1.5em;}
+
+h4{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.2em;}
+
+
+.ph-pro, .ph-ending{display: block;position: relative; margin-left: -35%; left:50%;}
+
+.p-about, .p-balance, .p-brain, .p-insight, .p-outcome, .p-test{width:50%; margin-left: -25%; position: relative; left:50%;}
+.p-model{width:60%; margin-left: -30%; position: relative; left:50%;}
+.ph-balance{margin-left: -25%; position: relative; left:50%;}
+.ph-carry, .ph-kids{margin-left: -45%; position: relative; left:50%;}
+.p-award{text-align: center;}
+
+
+.p-Team01 {position: absolute; margin-left: -5em; left:43%;}
+.p-Team02 {position: absolute; margin-left: -5em; left:62.6%;}
+
+.ph-Team01, .ph-Team02 {width:8em; height:8em; display: inline-block; background-color: pink; border-radius: 50%;}
+.ph-Team01 {position: absolute; margin-left: -4em; left:40%;}
+.ph-Team02 {position: absolute; margin-right: -4em; right:40%;}
