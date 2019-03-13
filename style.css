@@ -51,6 +51,8 @@ margin-left: 100px;left:50%}
 .nav:visited{text-decoration: none;}
 
 
+.egg{font-size: 14px; color:#ffb757; width:60vw; z-index: -10; position: relative; bottom: -12em; left:3em;}
+
 
 /* .pj01{width:35vw; height:30vh; background-color: pink; position: absolute; top: 15vh;} */
 .pj-odd{position: absolute; left: 9em; text-decoration: none;}
