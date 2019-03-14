@@ -79,3 +79,11 @@ h4{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2.5
 .ph-Directory01{position: absolute; margin-left: -6vw; left:30%;}
 .ph-Directory02{position: absolute; margin-left: -6vw; left:50%;}
 .ph-Directory03{position: absolute; margin-left: -6vw; left:70%;}
+
+
+/* -----------
+      LOAD
+  --------------*/
+
+#load{width:100%;height:100%;position:fixed;z-index:9999;background:rgba(255,255,255,1)}
+.ph-load{position: absolute; width:60%; margin-left: -30%; left:48%; top:10%;}
