@@ -14,7 +14,7 @@ html {scroll-behavior: smooth;}
 rgb(255,165,0) */
 
 h1{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2.5em;text-align: center;}
-h2{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2em; color: #775644; text-align: center;}
+h2{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2em; text-align: center;}
 h3{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.5em; text-align: center;}
 p{font-family: 'PT Sans', sans-serif; line-height: 1.5em;}
 h4{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.2em;}
