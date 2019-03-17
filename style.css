@@ -68,6 +68,7 @@ margin-left: 100px;left:50%}
 .pj03{width:35em; height:15em; background-color: pink; position: absolute; top: 24em; overflow: hidden;}
 .pj04{width:35em; height:15em; background-color: pink; position: absolute; top: 24em; overflow: hidden;}
 .pj05{width:35em; height:15em; background-color: pink; position: absolute; top: 41em; overflow: hidden;}
+.pj06{width:35em; height:15em; background-color: pink; position: absolute; top: 41em; overflow: hidden;}
 
 
 .p-pj{font-size: 1.3em; font-weight: 700; background-color: black; color:white; display: inline; padding-left: 2ch; padding-right: 1ch; padding-top: 0.3em; padding-bottom: 0.3em;
@@ -77,7 +78,8 @@ margin-left: 100px;left:50%}
 .ph-pj02{width:35em; position: relative; top:-2em;}
 .ph-pj03{width:35em; position: relative; top:-3.5em;}
 .ph-pj04{width:35em; position: relative; top:-1.5em;}
-.ph-pj05{width:37em; position: relative; top:-4.2em;}
+.ph-pj05{width:37em; position: relative; top:;}
+.ph-pj06{width:37em; position: relative; top:-5.5em;}
 
 
 .ph-pj{transition: .5s;}
