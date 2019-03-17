@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Guntur:400,500,600,700|Merriweather+Sans:400,700,800|PT+Sans:400,700');
+.blank{height:5vh; width:100%;}
+.p-blank{height:1em;width:100%;}
+.small-blank{height:0.2em;width:100%;}
+html {scroll-behavior: smooth;}
+.cover{margin-left:-45%; position: relative; left:50%; padding-top: -30vh;}
+.logo{width:50px; position: fixed; top:20px; left:40px;z-index: 10;}
+.logo-orange{width:50px; position: fixed; top:20px; left:40px; z-index: 20; opacity: 0; transition: .3s;}
+.logo-orange:hover{width:50px; position: fixed; top:20px; left:40px; z-index: 20; opacity: 1; transition: .1s;}
+
+
+/* orange
+#FFA500
+rgb(255,165,0) */
+
+h1{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2.5em;text-align: center;}
+h2{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2em; text-align: center;}
+h3{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.5em; text-align: center;
+/* color: #e29488; */
+}
+p{font-family: 'PT Sans', sans-serif; line-height: 1.5em;}
+h4{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.2em;}
+
+/*
+.ph-cover, .ph-pro, .ph-ending{display: block;position: relative; margin-left: -35%; left:50%;}  */
+
+.p-about{width:50%; margin-left: -25%; position: relative; left:50%; text-align: center;}
+.p-illustration{width:50%; margin-left: -25%; position: relative; left:50%;}
+.ph{position:relative; margin-left: -35%; left:50%;}
+
+
+
+/* -----------
+      LOAD
+  --------------*/
+
+#load{width:100%;height:100%;position:fixed;z-index:9999;background:rgba(255,255,255,1)}
+.ph-load{position: absolute; width:60%; margin-left: -30%; left:48%; top:10%;}
