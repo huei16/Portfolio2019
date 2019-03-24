@@ -37,7 +37,7 @@ h4{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.2
 .p-Team01 {position: absolute; margin-left: -5em; left:43%;}
 .p-Team02 {position: absolute; margin-left: -5em; left:62.6%;}
 
-.ph-Team01, .ph-Team02 {width:8em; height:8em; display: inline-block; background-color: pink; border-radius: 50%;}
+.ph-Team01, .ph-Team02 {width:8em; height:8em; display: inline-block; border-radius: 50%;}
 .ph-Team01 {position: absolute; margin-left: -4em; left:40%; background-image: url(images/01.jpg); background-size: contain;}
 .ph-Team02 {position: absolute; margin-right: -4em; right:40%; background-image: url(images/02.jpg); background-size: contain;}
 
