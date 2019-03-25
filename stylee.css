@@ -66,7 +66,7 @@ margin-left: 100px;left:50%}
   background-repeat: repeat-x;
   text-decoration: none;
 }
-.nav-right{position: absolute; right:100px;bottom:-13px; font-weight: bold;}
+.nav-right{position: absolute; right:100px;bottom:-33px; font-weight: bold;}
 a{color: black; z-index: 30; font-family: 'Merriweather Sans', sans-serif; text-decoration: none;}
 
 
