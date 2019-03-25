@@ -47,12 +47,27 @@ margin-left: 100px;left:50%}
 #sec2{height:170vh; position: relative;
   /* background-color: yellow; */
 }
-.header{}
-.logo{position: absolute; top:20px; left:40px;}
-#nav{position: absolute; top:30px; right:50px; }
-.nav{text-decoration: none; color: black; font-size: 20px; font-weight: 700; padding-left: 6px; padding-right: 6px; padding-bottom: 1px;}
+.logo{position: absolute; left:60px;}
+#nav{position: absolute; width: 100%; top:20px; }
+.Home{font-size: 1.6em; font-weight: 600; display: inline; position: relative; left:110px; bottom:-15px;}
+.nav{ margin-left: 20px; margin-right: 20px; padding-bottom: 3px;position: relative;
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+}
+.nav:hover{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 8px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+.nav-right{position: absolute; right:100px;bottom:-13px; font-weight: bold;}
+a{color: black; z-index: 30; font-family: 'Merriweather Sans', sans-serif; text-decoration: none;}
+/* .nav{text-decoration: none; color: black; font-size: 20px; font-weight: 700; padding-left: 6px; padding-right: 6px; padding-bottom: 1px;}
 .nav:hover{background-color: #ffb757; transition: .3s;}
-.nav:visited{text-decoration: none;}
+.nav:visited{text-decoration: none;} */
 
 
 #egg{font-size: 14px; color:#ffb757; width:60vw; z-index: -10; position: relative; top:5em; left:3em;}
@@ -97,9 +112,5 @@ margin-left: 100px;left:50%}
 .p-bottom2{text-align: center; font-size: 0.8em;}
 
 .email{padding-left: 1ch; padding-right: 1ch; text-decoration: none; color: black;}
-.email:hover{background-color: #ffb757; transition: .3s;}
+/* .email:hover{background-color: #ffb757; transition: .3s;} */
 .email:visited{color: black;}
-
-.phone{padding-left: 1ch; padding-right: 1ch; text-decoration: none; color: black;}
-.phone:hover{background-color: #ffb757; transition: .3s;}
-.phone:visited{color: black;}
