@@ -99,7 +99,7 @@ a{color: black; z-index: 30; font-family: 'Merriweather Sans', sans-serif; text-
 
 
 
-.ph-pj{transition: .5s;}
+.ph-pj{transition: .4s;}
 .ph-pj:hover{ transform: scale(1.1); transition: .5s}
 
 
