@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700,800');
+
+:root {  --mainColor: #ff9800;}
+html {scroll-behavior: smooth;}
+body{font-family: 'Merriweather Sans', sans-serif;}
+.blank{height:10px;}
+.blank{height:5vh; width:100%;}
+.p-blank{height:1em;width:100%;}
+
+
+#load{width:100%;height:100%;position:fixed;z-index:9999;background:rgba(255,255,255,1)}
+.ph-load{position: absolute; width:60%; margin-left: -30%; left:48%; top:10%;}
+
+
+
+#sec1{height:100vh;}
+#canvas-1{width:100%; height:100vh;}
+.intro{
+  width:550px;position: absolute; margin-left: -275px; left:50%; top:28%; background-color:;
+  font-weight: 700; font-size: 30px; line-height: 50px;}
+
+.button {
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+  background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 5px 5px;
+  color: black;
+  text-decoration: none;
+}
+.button:visited{color:black;}
+.button:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 10px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+
+.start{ transition: .6s; color: black;font-size: 20px; font-weight:700; text-decoration: none; border: 3px solid black; border-radius: 40px; padding:5px 12px;
+margin-left: 100px;left:50%}
+.start:focus{color: black;}
+.start:hover{background-color:rgba(255,152,0,0.8); transition: .3s;}
+.start:visited{color:black;}
+
+
+
+#sec2{height:170vh; position: relative;
+  /* background-color: yellow; */
+}
+.header{
+  margin-top: 20px;
+}
+.logo{position: absolute; left:60px;}
+#nav{position: absolute; width: 100%; top:20px; }
+.Home{font-size: 1.6em; font-weight: 600; display: inline; position: relative; left:110px; bottom:-15px;}
+.nav{ margin-left: 20px; margin-right: 20px; padding-bottom: 3px;position: relative;
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+}
+.nav:hover{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 8px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+.nav-right{position: absolute; right:100px;bottom:-13px; font-weight: bold;}
+a{color: black; z-index: 30; font-family: 'Merriweather Sans', sans-serif; text-decoration: none;}
+
+
+#egg{font-size: 14px; color:#ffb757; width:60vw; z-index: -10; position: relative; top:5em; left:3em;}
+
+
+/* .pj01{width:35vw; height:30vh; background-color: pink; position: absolute; top: 15vh;} */
+.pj-odd{position: absolute; left: 9em; text-decoration: none;}
+.pj-even{position: absolute; right: 9em; text-decoration: none;}
+.pj-odd:visited, .pj-even:visited{color:black;}
+
+.pj01{width:35em; height:15em; background-color: pink; position: absolute; top: 7em; overflow: hidden;}
+.pj02{width:35em; height:15em; background-color: white; position: absolute; top: 7em; overflow: hidden;}
+.pj03{width:35em; height:15em; background-color: pink; position: absolute; top: 24em; overflow: hidden;}
+.pj04{width:35em; height:15em; background-color: pink; position: absolute; top: 24em; overflow: hidden;}
+.pj05{width:35em; height:15em; background-color: pink; position: absolute; top: 41em; overflow: hidden;}
+.pj06{width:35em; height:15em; background-color: pink; position: absolute; top: 41em; overflow: hidden;}
+.pj07{width:35em; height:15em; background-color: pink; position: absolute; top: 58em; overflow: hidden;}
+.pj08{width:35em; height:15em; background-color: pink; position: absolute; top: 58em; overflow: hidden;}
+
+
+.p-pj{font-size: 1.3em; font-weight: 700; background-color: black; color:white; display: inline; padding-left: 2ch; padding-right: 1ch; padding-top: 0.3em; padding-bottom: 0.3em;
+  position: absolute; top:9em;}
+
+.ph-pj01{height:15em; position: relative; left:-2.2em;}
+.ph-pj02{width:35em; position: relative; top:-2em;}
+.ph-pj03{width:35em; position: relative; top:-3.5em;}
+.ph-pj04{width:35em; position: relative; top:-1.5em;}
+.ph-pj05{width:35em; position: relative; top:-6em;}
+.ph-pj06{width:37em; position: relative; top:-5.5em;}
+.ph-pj07{width:35em; position: relative; top:-0.5em;}
+.ph-pj08{width:35em; position: relative; top:-0.5em;}
+
+
+
+.ph-pj{transition: .4s;}
+.ph-pj:hover{ transform: scale(1.1); transition: .5s}
+
+
+
+
+.p-bottom{text-align: center; font-size: 1em; line-height: 1.2em;}
+.p-bottom2{text-align: center; font-size: 0.8em;}
+
+.email{padding-left: 1ch; padding-right: 1ch; text-decoration: none; color: black;}
+/* .email:hover{background-color: #ffb757; transition: .3s;} */
+.email:visited{color: black;}
