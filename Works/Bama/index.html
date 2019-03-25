@@ -7,6 +7,8 @@
     <link href="reset.css" rel="stylesheet" media="screen" type="text/css">
     <link rel="stylesheet" media='screen and (min-width: 701px)' href="style.css">
     <link rel="stylesheet" media='screen and (max-width: 700px)' href="style_mobile.css">
+    <script src="../../jquery.js"></script>
+    <script src="../../zepto.js"></script>
   </head>
   <body>
 
@@ -17,13 +19,17 @@
 
 
 <div id="contents">
-    <div id="nav">
-        <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.1 40.1"><path d="M20 0C9 0 0 9 0 20c0 11.1 9 20 20 20 11.1 0 20-9 20-20C40.1 9 31.1 0 20 0zM20 33.3c-7.3 0-13.2-5.9-13.2-13.2S12.7 6.8 20 6.8c7.3 0 13.2 5.9 13.2 13.2S27.3 33.3 20 33.3z"/></svg>
-        <a href="../../index.html#sec2"><svg class="logo-orange" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41.1 41.1"><style type="text/css">
-        	.st0{fill:#ff9800;stroke:#ff9800;stroke-miterlimit:10;}
-        </style><path class="st0" d="M20.5 0.5c-11.1 0-20 9-20 20 0 11.1 9 20 20 20 11.1 0 20-9 20-20C40.6 9.5 31.6 0.5 20.5 0.5zM20.5 33.8c-7.3 0-13.2-5.9-13.2-13.2S13.2 7.3 20.5 7.3c7.3 0 13.2 5.9 13.2 13.2S27.8 33.8 20.5 33.8z"/></svg>
-        </a>
-    </div>
+
+
+  <header class="nav-down">
+      <a href="../../index.html#sec2"><img class="Logo" width="40px"src="../../logooo.png"><p class="Home">Sophia Tseng</p></a>
+      <div class="nav-right">
+      <a class="nav About" href="index.html">About Me</a>
+      <a class="nav Works" href="../Works/index.html">Work</a>
+      <a class="nav Experience" href="../Experience/index.html">Experience</a>
+      </div>
+      </header>
+      <p class="nav-blank"></p>
 
 
 
@@ -51,7 +57,7 @@
       <p class="p-balance">
         A balance bike is a training bike that helps children learn balance and steering. It has no foot pedals and no gears; it only moves when the rider scoots. A balance bike must be small enough for the rider, usually kids age 1.5 to 6 years, to be able to put both feet flat on the ground. Essentially, it’s a mini dandy horse for kids. </p>
       <p class="p-blank"></p>
-      <img class="ph-balance" src="images/Balance.jpg" width="50%">
+      <img class="ph-balance lazy" data-src="images/Balance.jpg" width="50%">
       <p class="blank"></p>
       <p class="blank"></p>
       <p class="p-blank"></p>
@@ -61,26 +67,33 @@
       <p class="p-blank"></p>
       <p class="p-blank"></p>
       <p class="p-brain">Through research, interview, and observation research, we looked into different aspects of using a balance bike. Looking at some problems that existing balance bikes have and trying to find out what they could have but didn’t achieve, we sorted out these directions that we could potentially focus on:</p>
-      <img class="ph-brain" src="images/Brain.png" width="100%">
+      <img class="ph-brain lazy" data-src="images/Brain.png" width="100%">
       <p class="blank"></p>
       <p class="blank"></p>
+      <p class="p-blank"></p>
+
 
     <h2>Insight</h2>
       <p class="p-blank"></p>
       <p class="p-blank"></p>
       <p class="p-insight">
         At first, we focused a lot on the bike itself, but after our field research, we realized that from preparing for going out, carrying the bike, looking after kids’ safety, etc. Parents are the hidden user of a balance bike.</p>
-      <img class="ph-insight" src="images/Insight.png" width="100%">
-      <img class="ph-observation" src="images/Observation.jpg" width="100%">
+        <p class="p-blank"></p>
+      <img class="ph-insight lazy" data-src="images/Insight.png" width="100%">
+      <p class="p-blank"></p>
+      <p class="p-blank"></p>
+      <img class="ph-observation lazy" data-src="images/Observation.jpg" width="100%">
       <p class="blank"></p>
       <p class="blank"></p>
 
     <h2>Develop</h2>
       <p class="p-blank"></p>
-      <img class="ph-develop" src="images/Develop.jpg" width="100%">
+      <img class="ph-develop lazy" data-src="images/Develop.jpg" width="100%">
 
 
       <p class="blank"></p>
+      <p class="p-blank"></p>
+      <p class="p-blank"></p>
       <p class="p-blank"></p>
 
     <h2>Outcome</h2>
@@ -93,9 +106,9 @@
         <p class="p-blank"></p>
         <p class="p-blank"></p>
 
-    <img class="ph-outcome ph-carry" src="images/Carry.jpg" width="90%">
+    <img class="ph-outcome ph-carry lazy" data-src="images/Carry.jpg" width="90%">
       <p><br></p>
-      <img class="ph-outcome ph-kids" src="images/Kids.png" width="90%">
+      <img class="ph-outcome ph-kids lazy" data-src="images/Kids.png" width="90%">
       <p class="blank"></p>
       <p class="p-blank"></p>
       <p class="p-blank"></p>
@@ -106,9 +119,9 @@
       <p class="p-model">
         Our goal is always to build a model that bears the weight of a kid, hence we decided to purchase a balance bike and modify it to our design. We really throught through our order of construction before starting since the time given is very limited. And there are a lot of other details to pay attention to: measurements of fins to locate the skeleton in the 3D-printed shell, covering the blue when spray-painting orange, calculating tolerances, etc.</p>
       <p class="p-blank"></p>
-      <img class="ph-model" src="images/Model.jpg" width="100%">
+      <img class="ph-model lazy" data-src="images/Model.jpg" width="100%">
       <p class="p-blank"></p>
-      <img class="ph-model" src="images/Model2.jpg" width="100%">
+      <img class="ph-model lazy" data-src="images/Model2.jpg" width="100%">
       <p class="blank"></p>
       <p class="p-blank"></p>
 
@@ -118,7 +131,7 @@
       <p class="p-test">
         We brought our bike to a park, and invited families to try out our design. We recieved positive feedbacks! One of the parents said that the pull-out handle doesn’t look as stirdy as it actually is, maybe there is a way to improve sense of reliability. Kids all loved it, and some parents asked if this would be on the market!</p>
       <p class="p-blank"></p>
-      <img class="ph-test" src="images/Test.jpg" width="100%">
+      <img class="ph-test lazy" data-src="images/Test.jpg" width="100%">
       <p class="p-blank"></p>
       <p class="p-blank"></p>
 
@@ -129,7 +142,7 @@
     <h2>The Team</h2>
         <p class="p-blank"></p>
         <div class="Team">
-        <img class="ph-team" src="images/Team.jpg" width="100%">
+        <img class="ph-team lazy" data-src="images/Team.jpg" width="100%">
 
         <!-- <div class="ph-Team01"></div>
         <div class="ph-Team02"></div>
@@ -158,6 +171,9 @@ document.onreadystatechange = function () {
   }
 }
 </script>
+<script src="../../nav.js"></script>
+<script type="text/javascript" src="../../jquery.lazy.min.js"></script>
+<script src="script.js"></script>
 
   </body>
 </html>
