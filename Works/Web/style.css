@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Hind+Guntur:400,500,600,700|Merriweather+Sans:400,700,800|PT+Sans:400,700');
-.blank{height:5vh; width:100px;}
-.p-blank{height:1em;width:100px;}
+.blank{height:5vh; width:60%;}
+.p-blank{height:1em;width:60%;}
 .box-blank{width:1%; height:42vh;}
 
 html {scroll-behavior: smooth;}
 .logo{width:50px; position: fixed; top:20px; left:40px;z-index: 10;}
-.logo-orange{width:50px; position: fixed; top:20px; left:40px; z-index: 20; opacity: 0; transition: .3s;}
-.logo-orange:hover{width:50px; position: fixed; top:20px; left:40px; z-index: 20; opacity: 1; transition: .1s;}
-.container{width:100%; overflow: hidden;}
+
 /* orange
 #FFA500
 rgb(255,165,0) */
@@ -24,15 +22,6 @@ em{font-weight: 700;}
   box-shadow: 0.4rem 0.4rem 0 black;
   transform: translate(-0.4rem, -0.4rem);
 }
-
-/* .ph-box01, .ph-box02{position: absolute; width:70vw;} */
-
-
-.ph-cover{display: block;position: relative; margin-left: -35vw; left:50vw;margin-right:-35vw;}
-
-
-.text{width:50%; margin-left: -25%; position: relative; left:50%; }
-.brief02{text-align: center;}
 
 /* -----------
       LOAD
