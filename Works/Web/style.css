@@ -8,7 +8,7 @@ html {scroll-behavior: smooth;}
 .logo{width:50px; position: fixed; top:20px; left:40px;z-index: 10;}
 .logo-orange{width:50px; position: fixed; top:20px; left:40px; z-index: 20; opacity: 0; transition: .3s;}
 .logo-orange:hover{width:50px; position: fixed; top:20px; left:40px; z-index: 20; opacity: 1; transition: .1s;}
-
+.container{width:100%; overflow: hidden;}
 
 /* orange
 #FFA500
@@ -52,7 +52,7 @@ header{background:white; height: 80px; position: fixed; top: 0;
   }
 .nav-blank{height:80px; width:100%;}
 .Logo{position: relative; top:15px; left:100px;}
-.Home{font-size: 1.6em; font-weight: 600; display: inline; position: relative; left:110px;}
+.Home{font-size: 1.6em; font-weight: 600; display: inline; position: relative; left:465px;}
 .nav{
   margin-left: 20px; margin-right: 20px; padding-bottom: 3px;position: relative;
     background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
