@@ -28,7 +28,7 @@ em{font-weight: 700;}
 .ph-box01, .ph-box02{position: absolute; width:70vw;}
 
 
-.ph-cover{width:70%; display: block;position: relative; margin-left: -35%; left:50%;}
+.ph-cover{width:70vw; display: block;position: relative; margin-left: -35vw; left:50vw;}
 
 
 .text{width:50%; margin-left: -25%; position: relative; left:50%;}
