@@ -7,7 +7,6 @@ html {scroll-behavior: smooth;}
 .logo{width:50px; position: fixed; top:20px; left:40px;z-index: 10;}
 .logo-orange{width:50px; position: fixed; top:20px; left:40px; z-index: 20; opacity: 0; transition: .3s;}
 .logo-orange:hover{width:50px; position: fixed; top:20px; left:40px; z-index: 20; opacity: 1; transition: .1s;}
-.container{width:100%; overflow: hidden;}
 /* orange
 #FFA500
 rgb(255,165,0) */
@@ -19,20 +18,13 @@ h5{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.5
 p{font-family: 'PT Sans', sans-serif; line-height: 1.5em;}
 h4{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.2em;}
 em{font-weight: 700;}
-.previewbox{ width:70vw; height:21vw; border: 3px solid black; position: absolute; margin-left:-35vw; left:50vw; overflow: hidden;}
+/* .previewbox{ width:70vw; height:21vw; border: 3px solid black; position: absolute; margin-left:-35vw; left:50vw; overflow: hidden;}
 .previewbox:hover {
   box-shadow: 0.4rem 0.4rem 0 black;
   transform: translate(-0.4rem, -0.4rem);
-}
-
-/* .ph-box01, .ph-box02{position: absolute; width:70vw;} */
+} */
 
 
-.ph-cover{display: block;position: relative; margin-left: -35vw; left:50vw;margin-right:-35vw;}
-
-
-.text{width:50%; margin-left: -25%; position: relative; left:50%; }
-.brief02{text-align: center;}
 
 /* -----------
       LOAD
