@@ -12,9 +12,7 @@
     <script src="../../zepto.js"></script>
   </head>
   <body>
-  <div id="load">
-      <img class="ph-load" src="../../load.gif" width="100%">
-  </div>
+
   <div id="contents">
 
 
@@ -29,20 +27,6 @@
     <p class="blank"></p>
 </div>
 
-<script>
-document.onreadystatechange = function () {
-  var state = document.readyState
-  if (state == 'interactive') {
-       document.getElementById('contents').style.visibility="hidden";
-  } else if (state == 'complete') {
-      setTimeout(function(){
-         document.getElementById('interactive');
-         document.getElementById('load').style.visibility="hidden";
-         document.getElementById('contents').style.visibility="visible";
-      },1000);
-  }
-}
-</script>
 <script src="../../nav.js"></script>
   </body>
 </html>
