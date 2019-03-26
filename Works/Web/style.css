@@ -28,10 +28,10 @@ em{font-weight: 700;}
 /* .ph-box01, .ph-box02{position: absolute; width:70vw;} */
 
 
-.ph-cover{display: block;position: relative; margin-left: -35vw; left:50vw;}
+.ph-cover{display: block;position: relative; margin-left: -35vw; left:50vw;margin-right: 0;}
 
 
-.text{width:50%; margin-left: -25%; position: relative; left:50%;}
+.text{width:50%; margin-left: -25%; position: relative; left:50%; }
 .brief02{text-align: center;}
 
 /* -----------
