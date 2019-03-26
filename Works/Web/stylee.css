@@ -27,7 +27,8 @@ em{font-weight: 700;}
   box-shadow: 0.4rem 0.4rem 0 black;
   transform: translate(-0.4rem, -0.4rem);
 }
-
+.sorry-blank{height:0.5em;width:90%; display: block;}
+.sorry{width:50%; position: relative; margin-left: -25%; left:50%; font-size: 0.8em;}
 
 /* -----------
       LOAD
