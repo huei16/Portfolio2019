@@ -7,7 +7,6 @@ html {scroll-behavior: smooth;}
 .logo{width:50px; position: fixed; top:20px; left:40px;z-index: 10;}
 .logo-orange{width:50px; position: fixed; top:20px; left:40px; z-index: 20; opacity: 0; transition: .3s;}
 .logo-orange:hover{width:50px; position: fixed; top:20px; left:40px; z-index: 20; opacity: 1; transition: .1s;}
-.container{width:100%; overflow: hidden;}
 
 /* orange
 #FFA500
@@ -26,7 +25,7 @@ em{font-weight: 700;}
   transform: translate(-0.4rem, -0.4rem);
 }
 
-.ph-box01, .ph-box02{position: absolute; width:70vw;}
+/* .ph-box01, .ph-box02{position: absolute; width:70vw;} */
 
 
 .ph-cover{display: block;position: relative; margin-left: -35vw; left:50vw;}
