@@ -20,15 +20,16 @@ h5{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.5
 p{font-family: 'PT Sans', sans-serif; line-height: 1.5em;}
 h4{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.2em;}
 em{font-weight: 700;}
-.previewbox{ width:70vw; height:21vw; border: 3px solid black; position: absolute; margin-left:-35%; left:50%; overflow: hidden;}
+.previewbox{ width:70vw; height:21vw; border: 3px solid black; position: absolute; margin-left:-35vw; left:50vw; overflow: hidden;}
 .previewbox:hover {
   box-shadow: 0.4rem 0.4rem 0 black;
   transform: translate(-0.4rem, -0.4rem);
 }
-/* .ph-box01, .ph-box02{position: absolute; width:70vw;} */
+
+.ph-box01, .ph-box02{position: absolute; width:70vw;}
 
 
-.ph-cover{display: block;position: relative; margin-left: -35%; left:50%;}
+.ph-cover{display: block;position: relative; margin-left: -35vw; left:50vw;}
 
 
 .text{width:50%; margin-left: -25%; position: relative; left:50%;}
