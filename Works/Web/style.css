@@ -25,10 +25,10 @@ em{font-weight: 700;}
   box-shadow: 0.4rem 0.4rem 0 black;
   transform: translate(-0.4rem, -0.4rem);
 }
-.ph-box01, .ph-box02{position: absolute; width:70vw;}
+/* .ph-box01, .ph-box02{position: absolute; width:70vw;} */
 
 
-.ph-cover{width:70vw; display: block;position: relative; margin-left: -35vw; left:50vw;}
+.ph-cover{display: block;position: relative; margin-left: -35%; left:50%;}
 
 
 .text{width:50%; margin-left: -25%; position: relative; left:50%;}
