@@ -7,7 +7,6 @@ body{font-family: 'Merriweather Sans', sans-serif;}
 .blank{height:5vh; width:100%;}
 .p-blank{height:1em;width:100%;}
 
-
 #load{width:100%;height:100%;position:fixed;z-index:9999;background:rgba(255,255,255,1)}
 .ph-load{position: absolute; width:60%; margin-left: -30%; left:48%; top:10%;}
 
@@ -16,10 +15,12 @@ body{font-family: 'Merriweather Sans', sans-serif;}
 #sec1{height:100vh;}
 #canvas-1{width:100%; height:100vh;}
 .intro{
-  width:550px;position: absolute; margin-left: -275px; left:50%; top:28%; background-color:;
-  font-weight: 700; font-size: 30px; line-height: 50px;}
+  width:600px;position: absolute; margin-left: -275px; left:50%; top:28%; background-color:;
+  font-weight: 700; font-size: 30px; line-height: 50px;
+  cursor:default;}
 
 .button {
+  cursor: default;
   background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
   background-position: 0 100%;
 	background-repeat: repeat-x;
@@ -44,7 +45,7 @@ margin-left: 100px;left:50%}
 
 /* .arrowdown{display: inline-block; transform: rotate(45deg); position: relative; left:215px;} */
 
-#sec2{height:85vw; position: relative;
+#sec2{height:105vw; position: relative;
   /* background-color: yellow; */
 }
 .header{
@@ -86,6 +87,7 @@ a{color: black; z-index: 30; font-family: 'Merriweather Sans', sans-serif; text-
 .pj06{width:39vw; height:17vw; background-color: aliceblue; position: absolute; top: 46vw; overflow: hidden;}
 .pj07{width:39vw; height:17vw; background-color: aliceblue; position: absolute; top: 65vw; overflow: hidden;}
 .pj08{width:39vw; height:17vw; background-color: aliceblue; position: absolute; top: 65vw; overflow: hidden;}
+.pj09{width:39vw; height:17vw; background-color: aliceblue; position: absolute; top: 84vw; overflow: hidden;}
 
 
 .p-pj{font-size: 1.3em; font-weight: 700; background-color: black; color:white; display: inline; padding-left: 2ch; padding-right: 1ch; padding-top: 0.3em; padding-bottom: 0.3em;
@@ -93,12 +95,14 @@ a{color: black; z-index: 30; font-family: 'Merriweather Sans', sans-serif; text-
 
 .ph-pj01{height:17vw; position: relative; left:-2em;}
 .ph-pj02{width:39vw; position: relative; top:-2em;}
-.ph-pj03{width:39vw; position: relative; top:-3.5em;}
+.ph-pj03{width:39vw; position: relative; top:-2.5em;}
 .ph-pj04{width:39vw; position: relative; top:-1em;}
-.ph-pj05{width:39vw; position: relative; top:-6em;}
+.ph-pj05{width:39vw; position: relative; top:-3.5em;}
 .ph-pj06{width:41vw; position: relative; top:-5.5em;}
-.ph-pj07{width:39vw; position: relative; top:-0.5em;}
+.ph-pj07{width:39vw; position: relative; top:-6em;}
 .ph-pj08{width:39vw; position: relative; top:-0.5em;}
+.ph-pj09{width:39vw; position: relative; top:-0.5em;}
+
 
 
 
