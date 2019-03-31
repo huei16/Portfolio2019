@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="../../icon.png">
+    <title> Dry Soap Holder </title>
+    <link href="reset.css" rel="stylesheet" media="screen" type="text/css">
+    <link rel="stylesheet" media='screen and (min-width: 701px)' href="style.css">
+    <link rel="stylesheet" media='screen and (max-width: 700px)' href="style_mobile.css">
+    <script src="../../jquery.js"></script>
+    <script src="../../zepto.js"></script>
+  </head>
+  <body>
+
+  <div id="load">
+      <img class="ph-load" src="../../load.gif" width="100%">
+  </div>
+  <div id="contents">
+
+
+    <header class="nav-down">
+        <a href="../../index.html#sec2"><img class="Logo" width="40px"src="../../logooo.png"><p class="Home">Sophia Tseng</p></a>
+        <div class="nav-right">
+          <a class="nav About" href="../../About/index.html">About Me</a>
+          <a class="nav Works" href="../../index.html#sec2">Work</a>
+          <!-- <a class="nav Experience" href="../Experience/index.html">Experience</a> -->
+        </div>
+        </header>
+        <p class="nav-blank"></p>
+
+
+    <p class="blank"></p>
+    <img class="ph-title" src="images/Title.jpg" width="6%">
+    <p class="p-blank"></p>
+    <h3>Design Practice / 2019</h3>
+    <p class="blank"></p>
+    <img class="ph-cover" src="images/image01.jpg" width="70%">
+    <p class="p-blank"></p>
+    <p class="p-intro">Dry is a soap holder that keeps bith your sink-top and your soap dry and clean.</p>
+    <p class="blank"></p>
+    <p class="blank"></p>
+    <p class="blank"></p>
+
+    <h2>Constraints</h2>
+    <p class="p-blank"></p>
+    <p class="p-constraints">To practice designing with manufacturing constraints, imagine that 3D printing and Laser Cutting were the only two manufacturing techniques that are available on the planet.</p>
+    <p class="blank"></p>
+    <p class="blank"></p>
+    <p class="blank"></p>
+
+    <h2>Design</h2>
+    <p class="p-blank"></p>
+    <p class="p-blank"></p>
+    <img class="ph-cover" src="images/image02.jpg" width="70%">
+    <p class="blank"></p>
+    <img class="ph-feature" src="images/feature.jpg" width="55%">
+    <p class="blank"></p>
+    <img class="ph-cover" src="images/image03.jpg" width="70%">
+    <p class="p-blank"></p>
+    <p class="blank"></p>
+    <img class="ph-parts" src="images/parts.jpg" width="46%">
+    <p class="blank"></p>
+    <p class="blank"></p>
+    <img class="ph-cover" src="images/process.jpg" width="70%">
+    <p class="blank"></p>
+    <p class="blank"></p>
+    <img class="ph-cover" src="images/image04.jpg" width="70%">
+    <p class="p-blank"></p>
+    <img class="ph-cover" src="images/image05.jpg" width="70%">
+    <p class="p-blank"></p>
+    <img class="ph-cover" src="images/image06.jpg" width="70%">
+    <p class="blank"></p>
+    <p class="blank"></p>
+
+
+</div>
+
+
+<script>
+document.onreadystatechange = function () {
+  var state = document.readyState
+  if (state == 'interactive') {
+       document.getElementById('contents').style.visibility="hidden";
+  } else if (state == 'complete') {
+      setTimeout(function(){
+         document.getElementById('interactive');
+         document.getElementById('load').style.visibility="hidden";
+         document.getElementById('contents').style.visibility="visible";
+      },1000);
+  }
+}
+</script>
+<script src="../../nav.js"></script>
+<script type="text/javascript" src="../../jquery.lazy.min.js"></script>
+<script src="../../lazyscript.js"></script>
+  </body>
+</html>
