@@ -24,6 +24,8 @@ h4{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.2
 em{font-weight: 700;}
 
 .p-about, .p-studies, .p-mass{width:50%; margin-left: -25%; position: relative; left:50%;}
+.ph-cover{position: relative; margin-left: -40%; left:50%;}
+
 
 .p-object,.p-credit{text-align: center;}
 .p-material{text-align: center;}
