@@ -45,7 +45,7 @@ left:50%;}
 
 /* .arrowdown{display: inline-block; transform: rotate(45deg); position: relative; left:215px;} */
 
-#sec2{height:105vw; position: relative;
+#sec2{height:70vw; position: relative;
   /* background-color: yellow; */
 }
 .header{
@@ -85,26 +85,29 @@ a{color: black; z-index: 30; font-family: 'Merriweather Sans', sans-serif; text-
 .pj04{width:39vw; height:17vw; background-color: aliceblue; position: absolute; top: 27vw; overflow: hidden;}
 .pj05{width:39vw; height:17vw; background-color: aliceblue; position: absolute; top: 46vw; overflow: hidden;}
 .pj06{width:39vw; height:17vw; background-color: aliceblue; position: absolute; top: 46vw; overflow: hidden;}
-.pj07{width:39vw; height:17vw; background-color: aliceblue; position: absolute; top: 65vw; overflow: hidden;}
+/* .pj07{width:39vw; height:17vw; background-color: aliceblue; position: absolute; top: 65vw; overflow: hidden;}
 .pj08{width:39vw; height:17vw; background-color: aliceblue; position: absolute; top: 65vw; overflow: hidden;}
 .pj09{width:39vw; height:17vw; background-color: aliceblue; position: absolute; top: 84vw; overflow: hidden;}
-.pj10{width:39vw; height:17vw; background-color: aliceblue; position: absolute; top: 84vw; overflow: hidden;}
-
+.pj10{width:39vw; height:17vw; background-color: aliceblue; position: absolute; top: 84vw; overflow: hidden;} */
+.pj07{width:39vw; height:17vw; background-color: aliceblue; position: absolute; top: 5vw; overflow: hidden;}
+.pj08{width:39vw; height:17vw; background-color: aliceblue; position: absolute; top: 5vw; overflow: hidden;}
+.pj09{width:39vw; height:17vw; background-color: aliceblue; position: absolute; top: 24vw; overflow: hidden;}
+.pj10{width:39vw; height:17vw; background-color: aliceblue; position: absolute; top: 24vw; overflow: hidden;}
 
 .p-pj{font-size: 1.3em; font-weight: 700; background-color: black; color:white; display: inline; padding-left: 2ch; padding-right: 1ch; padding-top: 0.3em; padding-bottom: 0.3em;
   position: absolute; top:13vw; left:0; z-index: 100;}
 
 .ph-pj01{height:17vw; position: relative; left:-2em;}
-.ph-pj02{width:39vw; position: relative; top:-2em;}
-.ph-pj03{width:39vw; position: relative; top:-2.5em;}
-.ph-pj04{width:39vw; position: relative; top:-1em;}
-.ph-pj05{width:39vw; position: relative; top:-3.5em;}
-.ph-pj06{width:41vw; position: relative; top:-5.5em;}
-.ph-pj07{width:39vw; position: relative; top:-3em;}
-.ph-pj08{width:39vw; position: relative; top:-0.5em;}
+.ph-pj02{width:39vw; position: relative; top:-2.5em;}
+.ph-pj03{width:39vw; position: relative; top:-2em;}
+.ph-pj04{width:39vw; position: relative; top:-4.2em;}
+.ph-pj05{width:39vw; position: relative; top:-1em;}
+.ph-pj06{width:41vw; position: relative; top:-0.5em;}
+.ph-pj07{width:39vw; position: relative; top:-2.5em;}
+.ph-pj08{width:41vw; position: relative; top:-5.5em;}
 .ph-pj09{width:39vw; position: relative; top:-0.5em;}
 .ph-pj09{width:39vw; position: relative; top:-0.5em;}
-.ph-pj10{width:39vw; position: relative; top:-4.2em;}
+.ph-pj10{width:39vw; position: relative; top:-3em;}
 
 
 
@@ -114,10 +117,32 @@ a{color: black; z-index: 30; font-family: 'Merriweather Sans', sans-serif; text-
 
 
 
-
-.p-bottom{text-align: center; font-size: 1em; line-height: 1.2em;}
+#sec3{height:5vw; position: relative; bottom:0px;}
+.p-bottom{text-align: center; font-size: 0.8em; line-height: 1.2em;}
 .p-bottom2{text-align: center; font-size: 0.8em;}
-
 .email{padding-left: 1ch; padding-right: 1ch; text-decoration: none; color: black;}
 /* .email:hover{background-color: #ffb757; transition: .3s;} */
 .email:visited{color: black;}
+
+
+
+.p-bottomm{text-align: center; font-size: 0.8em; line-height: 1.2em; position: relative; top:45vw;}
+.p-bottomm2{text-align: center; font-size: 0.8em;position: relative; top:45vw;}
+.p-bottomm3{text-align: center; font-size: 4em;position:relative; top:45vw; color: white;}
+
+.more-button{font-size: 1.1em; width:11ch; margin-left: -4.5ch; position: relative; left:50%;}
+.morecontainer {
+    width:100%;
+    position: relative; top: 63vw;
+    background-color: white;
+    z-index: 20;}
+
+.morecontainer .expand {
+    transition: 5s;
+    padding: 2px;
+    cursor: pointer;
+    font-weight: bold;}
+
+.morecontainer .more {
+    display: none;
+    padding : 5px;}
