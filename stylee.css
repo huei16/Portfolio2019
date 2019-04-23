@@ -97,7 +97,8 @@ a{color: black; z-index: 30; font-family: 'Merriweather Sans', sans-serif; text-
 .p-pj{font-size: 1.3em; font-weight: 700; background-color: black; color:white; display: inline; padding-left: 2ch; padding-right: 1ch; padding-top: 0.3em; padding-bottom: 0.3em;
   position: absolute; top:13vw; left:0; z-index: 100;}
 
-.ph-pj01{height:17vw; position: relative; left:-2em;}
+/* .ph-pj01{height:17vw; position: relative; left:-2em;} */
+.ph-pj01{width:39vw; position: relative; top:-4.5em;}
 .ph-pj02{width:39vw; position: relative; top:-2.5em;}
 .ph-pj03{width:39vw; position: relative; top:-2em;}
 .ph-pj04{width:39vw; position: relative; top:-4.2em;}
