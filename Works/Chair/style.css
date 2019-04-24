@@ -17,15 +17,16 @@ h2{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2em
 h3{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.5em; color: #775644; text-align: center;}
 p{font-family: 'PT Sans', sans-serif; line-height: 1.5em;}
 
-h4{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.2em;}
+h4{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.2em; text-align: center;}
+h5{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 0.8em; text-align: center;}
 
 
 .ph-cover, .ph-pro, .ph-ending{display: block;position: relative; margin-left: -35%; left:50%;}
 
 .p-about{width:50%; margin-left: -25%; position: relative; left:50%;}
-.p-pro1{ width:50%; position: relative; top:-5vh; left:30vw;}
+.p-pro1{ width:50%; position: relative; top:-5vh; left:30vw; z-index: 30;}
 .p-ending{text-align: center;}
-
+.p-note{width:50%; margin-left: -25%; position: relative; left:50%;}
 
 /* -----------
       LOAD
