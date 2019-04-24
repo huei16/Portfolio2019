@@ -18,6 +18,8 @@ h2{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2em
 h3{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.5em;text-align: center;}
 p{font-family: 'PT Sans', sans-serif; line-height: 1.5em;}
 h4{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.2em; text-align: center;}
+h5{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 0.8em; text-align: center;}
+
 
 .ph-90{display: block;position: relative; margin-left: -45%; left:50%;}
 .ph-80{display: block;position: relative; margin-left: -40%; left:50%;}
