@@ -10,10 +10,10 @@ html {scroll-behavior: smooth;}
 #FFA500
 rgb(255,165,0) */
 
-h1{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2.5em;text-align: center;}
-h2{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2em; color: #4f4d4c; text-align: center;}
-h3{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.5em; color: #4f4d4c; text-align: center;}
-p{font-family: 'PT Sans', sans-serif; line-height: 1.5em;}
+h1{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2.2em;text-align: center;}
+h2{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.8em; color: #4f4d4c; text-align: center;}
+h3{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1em; color: #4f4d4c; text-align: center;}
+p{font-family: 'PT Sans', sans-serif; line-height: 1.7em; font-size: 0.9em;}
 
 h4{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.2em;}
 h5{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 0.8em; text-align: center;}
@@ -26,7 +26,7 @@ h5{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 0.8
 
 .p-intro{width:50%; margin-left: -25%; position:relative;left:50%;}
 .p-constraints{width:50%; margin-left: -25%; position: relative; left:50%;}
-.p-ending{text-align: center;}
+.p-ending{text-align: center;line-height: 1.7em;}
 
 
 /* -----------
