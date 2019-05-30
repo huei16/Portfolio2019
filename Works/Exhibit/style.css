@@ -12,12 +12,12 @@ html {scroll-behavior: smooth;}
 #FFA500
 rgb(255,165,0) */
 
-h1{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2.4em;text-align: center;}
-h2{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2em;text-align: center;}
-h3{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.3em; color: orange;text-align: center;}
-p{font-family: 'PT Sans', sans-serif; line-height: 1.5em;}
-h5{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 0.8em; text-align: center;}
-h4{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.3em; color: black; text-align: center;}
+h1{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2.2em;text-align: center;}
+h2{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.8em;text-align: center;}
+h3{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.1em; color: orange;text-align: center;}
+p{font-family: 'PT Sans', sans-serif; line-height: 1.7em; font-size: 0.9em;}
+h5{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 0.7em; text-align: center;}
+h4{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.1em; color: black; text-align: center;}
 
 .ph-90{position: relative; display: block; margin-left: -45%; left:50%;}
 .ph-80{position: relative; display: block; margin-left: -40%; left:50%;}
