@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="../../icon.png">
+    <title> Torii </title>
+    <link href="reset.css" rel="stylesheet" media="screen" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" media='screen and (min-width: 701px)' href="style.css">
+    <link rel="stylesheet" media='screen and (max-width: 700px)' href="style_mobile.css"> -->
+    <script src="../../jquery.js"></script>
+    <script src="../../zepto.js"></script>
+  </head>
+  <body>
+
+
+    <div id="load">
+          <img class="ph-load" src="../../load.gif" width="100%">
+    </div>
+    <div id="contents">
+
+      <header class="nav-down">
+          <a href="../../index.html#sec2"><img class="Logo" width="40px"src="../../logooo.png"><p class="Home">Sophia Tseng</p></a>
+          <div class="nav-right">
+            <a class="nav About" href="../../About/index.html">About Me</a>
+            <a class="nav Works" href="../../index.html#sec2">Work</a>
+            <!-- <a class="nav Experience" href="../Experience/index.html">Experience</a> -->
+          </div>
+          </header>
+          <p class="nav-blank"></p>
+
+
+
+    <h1>Torii</h1>
+    <p class="p-blank"></p>
+    <h3>Furniture Design / 2019</h3>
+    <p class="blank"></p>
+    <p class="p-about">
+      A Japanese temple inspired table for the home. Torii is made of both light and dark colored wood that add contrast and character to the furniture.
+      This was a solid wood frame construction project, aiming to see how form and structure can complement one another.
+    </p>
+    <p class="blank"></p>
+    <img class="ph-60" src="images/front.jpg" width="60%">
+    <p class="blank"></p>
+    <p class="p-blank"></p>
+      <img class="ph-60" src="images/full.jpg" width="60%">
+      <p class="p-blank"></p>
+        <p class="blank"></p>
+      <img class="ph-d1" src="images/detail1.jpg" width="40%">
+      <p class="p-edge"> Torii has both angular and rounded edges<br> to give it some playfulness.</p>
+      <img class="ph-d2" src="images/detail2.jpg" width="40%">
+      <p class="p-support"> All pieces running on the X and Y axis<br>gives Torii more structural strength.</p>
+
+      <p class="blank"></p>
+      <img class="ph-80" src="images/process.jpg" width="80%">
+      <p class="blank"></p>
+      <p class="p-blank"></p>
+      <img class="ph-80" src="images/construction1.jpg" width="80%">
+      <img class="ph-80" src="images/construction2.jpg" width="80%">
+      <img class="ph-80" src="images/construction3.jpg" width="80%">
+      <p class="blank"></p>
+      <p class="blank"></p>
+      <p class="p-blank"></p>
+      <!-- <img class="ph-end1" src="images/fullbright.jpg" width="50%">
+      <img class="ph-end2" src="images/detail1bright.jpg" width="35%"> -->
+      <img class="ph-end1" src="images/torii.jpg" width="50%">
+      <p class="blank"></p>
+      <img class="ph-60" src="images/scene.jpg" width="60%">
+      <p class="blank"></p>
+      <p class="blank"></p>
+      <p class="p-blank"></p>
+      <h4> Thank you for viewing!</h4>
+      <p class="p-blank"></p>
+      <p class="p-blank"></p>
+      <h5><a href="#contents">Back to Top</a></h5>
+      <p class="blank"></p>
+      <p class="p-blank"></p>
+
+    </div>
+
+<script>
+document.onreadystatechange = function () {
+var state = document.readyState
+if (state == 'interactive') {
+     document.getElementById('contents').style.visibility="hidden";
+} else if (state == 'complete') {
+    setTimeout(function(){
+       document.getElementById('interactive');
+       document.getElementById('load').style.visibility="hidden";
+       document.getElementById('contents').style.visibility="visible";
+    },1000);
+}
+}
+</script>
+<script src="../../nav.js"></script>
+<script type="text/javascript" src="../../jquery.lazy.min.js"></script>
+<script src="../../lazyscript.js"></script>
+
+  </body>
+</html>
