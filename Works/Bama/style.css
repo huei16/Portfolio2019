@@ -12,20 +12,21 @@ html {scroll-behavior: smooth;}
 #FFA500
 rgb(255,165,0) */
 
-h1{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2.5em;text-align: center;}
-h2{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2em; color: #ff7942; text-align: center;}
-h3{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.5em; text-align: center;}
-p{font-family: 'PT Sans', sans-serif; line-height: 1.5em;}
+h1{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2.2em;text-align: center;}
+h2{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.5em; color: #ff7942; text-align: center;}
+h3{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 0.95em; text-align: center;}
+p{font-family: 'PT Sans', sans-serif; line-height: 1.7em; font-size: 0.9em;}
 
 h4{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.2em;}
-h5{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 0.8em; text-align: center;}
+h5{font-family:'Merriweather Sans', sans-serif; font-weight: 400; font-size: 0.8em; text-align: center;}
 
 
 .ph-70{display: block;position: relative; margin-left: -35%; left:50%;}
+.ph-80{display: block;position: relative; margin-left: -40%; left:50%;}
 .ph-icon{display: block;position: relative; margin-left: -1.5%; left:50%;}
 .ph-carry2{position: relative; top:-5px;z-index: 20;}
 
-.p-about, .p-balance, .p-brain, .p-insight, .p-outcome, .p-test{width:50%; margin-left: -25%; position: relative; left:50%;}
+.p-about, .p-balance, .p-brain, .p-insight, .p-outcome, .p-test{width:40%; margin-left: -20%; position: relative; left:50%;}
 .p-model{width:60%; margin-left: -30%; position: relative; left:50%;}
 .p-award{text-align: center;}
 
