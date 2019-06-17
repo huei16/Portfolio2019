@@ -6,12 +6,12 @@
 html {scroll-behavior: smooth;}
 .container{width:100%; overflow: hidden;}
 
-h1{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2.5em;text-align: center;}
-h2{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2em; color: #5bb6c1; text-align: center;}
-h3{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.5em; color: #5bb6c1; text-align: center;}
-h5{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.5em; color: #000000; text-align: center;}
-p{font-family: 'PT Sans', sans-serif; line-height: 1.5em;}
-h4{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.2em;}
+h1{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 2.2em;text-align: center;}
+h2{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1.8em; color: #5bb6c1; text-align: center;}
+h3{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 1em; color: #5bb6c1; text-align: center;}
+h5{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 0.75em; color: #000000; text-align: center;}
+p{font-family: 'PT Sans', sans-serif; line-height: 1.7em; font-size: 0.9em;}
+h4{font-family:'Merriweather Sans', sans-serif; font-weight: 700; font-size: 0.9em; text-align: center;}
 em{font-weight: 700;}
 
 
